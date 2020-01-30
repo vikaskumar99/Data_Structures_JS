@@ -11,6 +11,11 @@ class Queue {
     {
         return this.data.pop();
     }
+    print()
+    {
+        for(let i=0;i<this.data.length;i++)
+            print(this.data[i]);
+    }
 }
 
 let q=new Queue();
